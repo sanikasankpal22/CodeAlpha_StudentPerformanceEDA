@@ -74,9 +74,16 @@ The project uses different visualizations to understand the data, including:
 
 ## Key Insights
 
-The analysis identifies important patterns and relationships between student-related factors and exam performance.
+Based on the correlation analysis:
 
-Detailed observations and visualizations are available in the Jupyter Notebook.
+- Attendance has the strongest positive relationship with Exam Score (correlation = 0.58).
+- Hours Studied also shows a moderate positive relationship with Exam Score (correlation = 0.45).
+- Previous Scores have a weak positive relationship with Exam Score (correlation = 0.18).
+- Tutoring Sessions show a weak positive relationship with Exam Score (correlation = 0.16).
+- Physical Activity has a very weak relationship with Exam Score (correlation = 0.028).
+- Sleep Hours show almost no linear relationship with Exam Score (correlation = -0.017).
+
+These correlations describe relationships in the dataset and do not by themselves establish cause-and-effect relationships.
 
 ## Project Files
 
